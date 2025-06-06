@@ -6,24 +6,32 @@ export default function Main() {
              bg-[#141414] items-center justify-center text-center
              border border-gray-900">
                 <div className="flex items-center justify-center space-x-2 flex-col md:flex-row">
-                    <div className="text-4xl drop-shadow-[0_0_8px_#ec489966]">🔥</div>
+                    <div className="text-4xl drop-shadow-[0_0_8px_#ec489966] animate-bounce mt-1">🔥</div>
                     <h2 className="text-2xl font-black text-center
-                      my-2">FLAMEBORN ASCENDANT</h2>
+                      my-2 animate-pulse">FLAMEBORN ASCENDANT</h2>
                 </div>
                 <div>
                 <p className="">Day 30 — Aura Intensifying</p>
                 <p className="text-[#3b82f6]">Aura Power: 34 ⚡ (27 from NoFap, +7 from Discipline Workouts)</p>
                 </div>
-                <div className="grid grid-cols-2 my-5 mx-5 gap-x-3 gap-y-3 font-bold">
-                    <button className="bg-black rounded-md py-3 border-none text-sm flex items-center
-                     justify-center cursor-pointer hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200">
-                        START ASCENSION <span className="animate-bounce text-lg ml-1">🚀</span></button>
-                    <button className="bg-black rounded-md py-3 border-none cursor-pointer
-                    hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200 ">LOG WORKOUT</button>
-                    <button className="bg-black rounded-md py-3 border-none cursor-pointer
-                    hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200 ">DAILY CHECK-INS</button>
-                    <button className="bg-black rounded-md py-3 border-none cursor-pointer
-                    hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200 ">VIEW LOGS</button>
+                <div className="flex flex-col my-5 mx-5 gap-3 font-bold">
+                <div className="flex gap-3">
+                 <button className="flex-1 bg-black rounded-md py-3 border-none text-sm flex items-center justify-center cursor-pointer hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200">
+                    START ASCENSION 
+                 </button>
+                 <button className="flex-1 text-sm bg-black rounded-md py-3 border-none cursor-pointer hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200">
+                    LOG WORKOUT
+                 </button>
+                </div>
+  
+                <div className="flex gap-3">
+                <button className="flex-1 text-sm bg-black rounded-md py-3 border-none cursor-pointer hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200">
+                  DAILY CHECK-INS
+                </button>
+                <button className="flex-1 text-sm bg-black rounded-md py-3 border-none cursor-pointer hover:bg-gray-950 hover:-translate-y-0.5 ease-in-out duration-200">
+                  VIEW LOGS
+                 </button>
+                 </div>
                 </div>
                 <div className="overflow-hidden h-3  rounded-md mx-6 bg-gray-950">
                     <div className="h-full w-3/5 rounded-md bg-gradient-to-r from-[#C04848] to-[#480048] "></div>
